@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/iv_detail_photo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/iv_detail_photo"
+        android:layout_marginTop="16dp"
+        tools:text="name"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_name"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        tools:text="Lorem ipsum dolor"
+        android:textColor="@color/gray"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
