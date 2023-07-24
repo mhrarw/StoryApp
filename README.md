@@ -1,8 +1,9 @@
-Android StoryApp
+# Android StoryApp
 
 Android App for [Dicoding Belajar Pengembangan Aplikasi Android Intermediate](https://www.dicoding.com/academies/352) Final Submission
-It is a story app that allows users to view, upload, and map stories. The app is written in Kotlin and includes unit tests to ensure the quality of the code
-Please use this repository as reference only, every plagiarism get automated detected !!!
+It is a story app that allows users to view, upload, and map stories. The app is written in Kotlin and includes unit tests to ensure the quality of the code.
+
+## _Please use this repository as a reference only, every plagiarism gets automated detected !!!_
 
 ## Features
 
